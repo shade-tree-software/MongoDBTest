@@ -1,0 +1,28 @@
+{
+  "name": "mongodbtest",
+  "version": "1.0.0",
+  "engines": {
+    "node": "8"
+  },
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/server.js",
+    "postinstall": "gulp server client index"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-latest": "^6.24.1",
+    "babelify": "^8.0.0",
+    "browserify": "^14.5.0",
+    "co": "^4.6.0",
+    "express": "^4.16.2",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.0",
+    "mongodb": "^2.2.33",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}
